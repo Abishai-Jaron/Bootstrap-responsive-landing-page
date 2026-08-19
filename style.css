@@ -1,0 +1,42 @@
+/* Custom Purple Bootstrap Theme */
+:root {
+    --bs-primary: #6f42c1;
+    --bs-primary-rgb: 111, 66, 193;
+    --bs-primary-text-emphasis: #3a1c75;
+    --bs-primary-bg-subtle: #e8d5f7;
+    --bs-primary-border-subtle: #c3a3e3;
+}
+
+/* Hero section styling */
+.hero-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e8d5f7 100%);
+    min-height: 90vh;
+}
+
+/* Dashboard preview styling */
+.dashboard-preview {
+    border: 1px solid #dee2e6;
+}
+
+/* Feature card hover effect */
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Ensure proper spacing on mobile */
+@media (max-width: 991px) {
+    .hero-section {
+        min-height: auto;
+        padding-top: 100px;
+    }
+}

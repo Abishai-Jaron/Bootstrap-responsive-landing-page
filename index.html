@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaLaunch - Build. Launch. Grow.</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Bootstrap responsive navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">NovaLaunch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn-light ms-3">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section py-5 mt-5">
+        <div class="container">
+            <!-- Bootstrap 12-column responsive grid -->
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="badge bg-light text-primary mb-3">POWER YOUR NEXT IDEA</span>
+                    <h1 class="display-4 fw-bold mb-3">Build better products. Launch faster.</h1>
+                    <p class="lead text-muted mb-4">NovaLaunch helps individuals and teams organize ideas, build products, collaborate efficiently and understand their growth.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+                        <a href="#features" class="btn btn-outline-primary btn-lg">Explore Features</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <!-- Simple dashboard visual -->
+                    <div class="dashboard-preview bg-white rounded-3 shadow-sm p-4">
+                        <div class="d-flex justify-content-between mb-3">
+                            <div class="bg-primary rounded-circle" style="width: 40px; height: 40px;"></div>
+                            <div class="bg-secondary rounded" style="width: 100px; height: 20px;"></div>
+                        </div>
+                        <div class="bg-light rounded p-3 mb-3">
+                            <div class="bg-primary rounded" style="width: 60%; height: 10px; margin-bottom: 10px;"></div>
+                            <div class="bg-secondary rounded" style="width: 40%; height: 10px;"></div>
+                        </div>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <div class="bg-light rounded p-3 text-center">
+                                    <div class="bg-primary rounded mx-auto" style="width: 30px; height: 30px;"></div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="bg-light rounded p-3 text-center">
+                                    <div class="bg-secondary rounded mx-auto" style="width: 30px; height: 30px;"></div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="bg-light rounded p-3 text-center">
+                                    <div class="bg-success rounded mx-auto" style="width: 30px; height: 30px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Button Showcase -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Bootstrap Button Showcase</h2>
+            
+            <!-- Contextual Button Variants -->
+            <div class="card shadow-sm rounded-3 p-4 mb-4">
+                <h5 class="mb-3">Contextual Button Variants</h5>
+                <div class="d-flex flex-wrap gap-2">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                    <button type="button" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-light">Light</button>
+                    <button type="button" class="btn btn-dark">Dark</button>
+                    <button type="button" class="btn btn-link">Link</button>
+                </div>
+            </div>
+
+            <!-- Outline Buttons -->
+            <div class="card shadow-sm rounded-3 p-4 mb-4">
+                <h5 class="mb-3">Outline Buttons</h5>
+                <div class="d-flex flex-wrap gap-2">
+                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <button type="button" class="btn btn-outline-danger">Danger</button>
+                    <button type="button" class="btn btn-outline-success">Success</button>
+                </div>
+            </div>
+
+            <!-- Button Sizes -->
+            <div class="card shadow-sm rounded-3 p-4 mb-4">
+                <h5 class="mb-3">Button Sizes</h5>
+                <div class="d-flex flex-wrap gap-2 align-items-center">
+                    <button type="button" class="btn btn-primary btn-lg">Large Button</button>
+                    <button type="button" class="btn btn-primary">Default Button</button>
+                    <button type="button" class="btn btn-primary btn-sm">Small Button</button>
+                </div>
+            </div>
+
+            <!-- Button States -->
+            <div class="card shadow-sm rounded-3 p-4 mb-4">
+                <h5 class="mb-3">Button States</h5>
+                <div class="d-flex flex-wrap gap-2">
+                    <button type="button" class="btn btn-primary active">Active Button</button>
+                    <button type="button" class="btn btn-primary" disabled>Disabled Button</button>
+                </div>
+            </div>
+
+            <!-- Button Tags -->
+            <div class="card shadow-sm rounded-3 p-4 mb-4">
+                <h5 class="mb-3">Button Tags</h5>
+                <div class="d-flex flex-wrap gap-2">
+                    <a href="#" class="btn btn-primary">Link as Button</a>
+                    <button type="button" class="btn btn-primary">Button Tag</button>
+                    <input type="submit" class="btn btn-primary" value="Input Submit">
+                </div>
+            </div>
+
+            <!-- Full Width Button -->
+            <div class="card shadow-sm rounded-3 p-4 mb-4">
+                <h5 class="mb-3">Full Width Button (d-grid)</h5>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button">Full Width Button</button>
+                </div>
+            </div>
+
+            <!-- Button Group -->
+            <div class="card shadow-sm rounded-3 p-4 mb-4">
+                <h5 class="mb-3">Button Group</h5>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary">Left</button>
+                    <button type="button" class="btn btn-primary">Middle</button>
+                    <button type="button" class="btn btn-primary">Right</button>
+                </div>
+            </div>
+
+            <!-- Toggle Button -->
+            <div class="card shadow-sm rounded-3 p-4">
+                <h5 class="mb-3">Toggle Button</h5>
+                <input type="checkbox" class="btn-check" id="toggleButton" autocomplete="off">
+                <label class="btn btn-primary" for="toggleButton" data-bs-toggle="button">Toggle Button</label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Everything You Need to Launch</h2>
+            <!-- Three feature cards using col-md-4 -->
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm rounded-3 p-4 text-center h-100 feature-card">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                            <span class="fs-4">📋</span>
+                        </div>
+                        <h4 class="mb-3">Smart Planning</h4>
+                        <p class="text-muted">Plan projects, organize ideas and track progress.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm rounded-3 p-4 text-center h-100 feature-card">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                            <span class="fs-4">👥</span>
+                        </div>
+                        <h4 class="mb-3">Fast Collaboration</h4>
+                        <p class="text-muted">Work together efficiently with your team.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm rounded-3 p-4 text-center h-100 feature-card">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                            <span class="fs-4">📊</span>
+                        </div>
+                        <h4 class="mb-3">Growth Analytics</h4>
+                        <p class="text-muted">Understand performance using useful insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Carousel -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">See NovaLaunch in Action</h2>
+            <!-- Bootstrap Carousel -->
+            <div id="novaLaunchCarousel" class="carousel slide shadow-sm rounded-3" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#novaLaunchCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#novaLaunchCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#novaLaunchCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item active">
+                        <div class="d-flex align-items-center justify-content-center bg-primary text-white py-5">
+                            <div class="text-center px-4">
+                                <h3 class="display-5 fw-bold mb-3">Plan Your Project</h3>
+                                <p class="lead">Organize your ideas and turn them into actionable plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-center bg-primary text-white py-5">
+                            <div class="text-center px-4">
+                                <h3 class="display-5 fw-bold mb-3">Collaborate With Your Team</h3>
+                                <p class="lead">Work together and keep everyone aligned.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-center bg-primary text-white py-5">
+                            <div class="text-center px-4">
+                                <h3 class="display-5 fw-bold mb-3">Track Your Growth</h3>
+                                <p class="lead">Use insights to understand your progress.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#novaLaunchCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#novaLaunchCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Simple Plans for Every Stage</h2>
+            <div class="row g-4">
+                <!-- Starter Plan -->
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm rounded-3 p-4 h-100">
+                        <h4 class="mb-3">Starter</h4>
+                        <h2 class="display-4 fw-bold mb-3">₹0<span class="fs-6 text-muted">/month</span></h2>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2">✓ 1 Project</li>
+                            <li class="mb-2">✓ Basic Analytics</li>
+                            <li class="mb-2">✓ Community Support</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100">Start Free</button>
+                    </div>
+                </div>
+                <!-- Professional Plan -->
+                <div class="col-12 col-md-4">
+                    <div class="card shadow rounded-3 p-4 h-100 border-primary border-2">
+                        <div class="bg-primary text-white text-center py-1 rounded mb-3">
+                            <small class="fw-bold">MOST POPULAR</small>
+                        </div>
+                        <h4 class="mb-3">Professional</h4>
+                        <h2 class="display-4 fw-bold mb-3">₹499<span class="fs-6 text-muted">/month</span></h2>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2">✓ Unlimited Projects</li>
+                            <li class="mb-2">✓ Advanced Analytics</li>
+                            <li class="mb-2">✓ Priority Support</li>
+                            <li class="mb-2">✓ Team Collaboration</li>
+                        </ul>
+                        <button class="btn btn-primary w-100">Choose Professional</button>
+                    </div>
+                </div>
+                <!-- Enterprise Plan -->
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm rounded-3 p-4 h-100">
+                        <h4 class="mb-3">Enterprise</h4>
+                        <h2 class="display-4 fw-bold mb-3">₹999<span class="fs-6 text-muted">/month</span></h2>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-2">✓ Unlimited Projects</li>
+                            <li class="mb-2">✓ Advanced Reports</li>
+                            <li class="mb-2">✓ Dedicated Support</li>
+                            <li class="mb-2">✓ Custom Solutions</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100">Contact Sales</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Let's Build Something Great</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Bootstrap contact form with validation -->
+                    <form id="contactForm" class="needs-validation shadow-sm rounded-3 p-4 bg-white" novalidate>
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" required>
+                            <div class="invalid-feedback">Please enter your full name.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                            <div class="invalid-feedback">Enter a valid email</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" required>
+                            <div class="invalid-feedback">Please enter a subject.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                            <div class="invalid-feedback">Please enter your message.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <!-- Success message -->
+                    <div id="successMessage" class="alert alert-success mt-3 d-none">
+                        Thank you! Your message has been sent successfully.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <h4 class="fw-bold mb-3">NovaLaunch</h4>
+                    <p class="text-muted">Build. Launch. Grow.</p>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h5 class="mb-3">Product</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#features" class="text-muted text-decoration-none">Features</a></li>
+                        <li class="mb-2"><a href="#pricing" class="text-muted text-decoration-none">Pricing</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h5 class="mb-3">Company</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-muted text-decoration-none">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h5 class="mb-3">Resources</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Documentation</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Help Center</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center text-muted mb-0">© 2026 NovaLaunch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
