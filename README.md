@@ -1,8 +1,3 @@
-Yes! 🔥 You want the **actual Markdown format** so you can copy-paste it directly into `README.md`, and GitHub will render it properly.
-
-Copy **everything below** into your `README.md`:
-
-````markdown
 # 🚀 NovaLaunch — Bootstrap Responsive Landing Page
 
 NovaLaunch is a modern, responsive landing page designed for a product-launch and growth platform.
