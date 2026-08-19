@@ -13,6 +13,8 @@ body {
 .hero-section {
     background: linear-gradient(135deg, #f8f9fa 0%, #e8d5f7 100%);
     min-height: 90vh;
+    display: flex;
+    align-items: center;
 }
 
 /* Dashboard preview styling */
