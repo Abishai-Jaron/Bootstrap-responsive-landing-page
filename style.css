@@ -45,4 +45,8 @@ html {
         min-height: auto;
         padding-top: 100px;
     }
+        .hero-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
