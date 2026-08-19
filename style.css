@@ -20,6 +20,7 @@ body {
 /* Dashboard preview styling */
 .dashboard-preview {
     border: 1px solid #dee2e6;
+    overflow: hidden;
 }
 
 /* Feature card hover effect */
