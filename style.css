@@ -21,6 +21,7 @@
 /* Feature card hover effect */
 .feature-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .feature-card:hover {
