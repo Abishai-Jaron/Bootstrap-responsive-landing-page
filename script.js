@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Check if form is valid
         if (form.checkValidity()) {
+            console.log('Contact form submitted successfully.');
             // Show success message
             successMessage.classList.remove('d-none');
             
